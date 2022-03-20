@@ -29,7 +29,25 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 10vw;
+}
+
+.button {
+display: flex;
+ transition-duration: 0.4s;
+ text-align: center;
+ width: 80vw;
+ background-color: inherit;
+ margin: 5vw;
+padding: 1vw;
+color: white;
+justify-content: center;
+ align-items: center;
+}
+
+.button:hover {
+ background-color: #4CAF50; /* Green */
+ color: white;
 }
 
 footer {
